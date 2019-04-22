@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1485242594316818}
+  m_IsPrefabAsset: 1
+--- !u!1 &1485242594316818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4152561664252334}
+  - component: {fileID: 114076247189734236}
+  m_Layer: 0
+  m_Name: MazeGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4152561664252334
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1485242594316818}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114076247189734236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1485242594316818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d68b94de7e967d4da969ec7a81261bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plane: {fileID: 1172504131754242, guid: b50734c3c59752c4186b68d4e1fbd202, type: 2}
+  key: {fileID: 1728430178740542, guid: 493ad33420a0c224ebe4eaca2fe3dac0, type: 2}
+  player: {fileID: 1418654271323216, guid: 7f8dfeff964949148940211f2d21020b, type: 2}
+  door: {fileID: 1439445193015612, guid: 8367453d2d956bc4e9ba80dd10c833d5, type: 2}
+  stones:
+  - {fileID: 1689763791141862, guid: 9f7042e5f36c89c41a689032bdafd347, type: 2}
+  - {fileID: 1474879894585652, guid: 76803247cac3fa440a0d63ed810eb2a3, type: 2}
+  enemy1: {fileID: 1178358681668010, guid: 4d0625e9738c8994f91a1611c0c46484, type: 2}
+  enemy2: {fileID: 1639129420527416, guid: aafd93b173aee7347a056fa2f8c72dbc, type: 2}
+  parent: {fileID: 4152561664252334}
+  size: 15
